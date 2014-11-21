@@ -1,0 +1,328 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) { /*large*/
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) { /*xlarge*/
+    
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) { /*xxlarge*/
+    
+    html {
+        font-size: 130%;
+    }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block
+}
+
+.billboard {
+    margin: 0 ;
+    padding: 0; 
+    position: relative;
+}
+
+.overlay {
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.welcome {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a,
+a:link,
+a:visited {
+  color: #0074D9;
+}
+
+a:hover,
+a:active {
+  outline: none;
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+img { 
+    display: block;
+    width: 100%;
+}
+
+.formcolor {
+    background-color: #e2e2e2;
+}
+
+.form {
+    max-width: 45em;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+   
+.field { 
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 100%;
+}
+    
+    input + label { 
+    display: inline-block
+}
+
+.radio {
+    border-style: none;
+    padding: 0;
+}
+
+.radiospan {
+    white-space: nowrap;
+}
+
+.explain {
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 100%;
+    height: 8em;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top:0;
+}
+
+.head {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.intro {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.jupiter {
+    margin: 0;
+    text-align: center;
+}
+  
+.bubbles {
+    padding: 2em;
+}
+
+.bubblescaption {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.bubbleinfo {
+    text-align: center;
+    color: white;
+}
+
+.nav {
+    padding: 0;
+    list-style: disc;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #0074D9;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #0074D9;
+
+  color: #fff;
+}
+
+.navtop {
+    padding: 0;
+    list-style: none;
+}
+
+.navtop a {
+    display: block;
+    text-decoration: none;
+    color: #0074D9;
+}
+
+.foot {
+    background-color: #ccc;
+}
+
+.characteristics {
+    background-color: #e2e2e2;
+}
+    
+.facts {
+    background-color: #4F94CD;
+}
+
+.phone {
+    background-color: #F0F8FF;      
+}
+
+.pod {
+    background-color: #A4D3EE;
+}
+
+.copy {
+        text-align: center;
+    }
+
+.hide {
+        display: none;
+}
+
+.right {
+        text-align: right;
+}
+
+@media only screen and (min-width: 25em) { /*small*/
+
+    .hide {
+        display: inline;
+    }
+    
+    .nav {
+        text-align: center;
+    }
+    
+    .nav li {
+        display: inline-block;
+        border: 0;
+    }
+    
+    .nav a {
+        display: inline;
+    }
+   
+    .navtop {
+        text-align: center
+    }
+    
+    .navtop li {
+        display: inline-block;
+        border: 0;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 38em) { /*medium*/
+    
+    .jupiter {
+        float: left;
+    }
+    
+    .nav {
+        float: right;
+    }
+    
+    .navtop {
+        text-align: center;
+    }
+       
+    .copy {
+        text-align: left;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 60em) { /*large*/
+
+
+    dl {
+        overflow: hidden;
+    }
+
+    dt {
+        float: left;
+        clear: left;
+        width: 10rem;
+    }
+
+    dd {
+        float: left;
+    }
+}
+    
