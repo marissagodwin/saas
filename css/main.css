@@ -41,6 +41,7 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -50,31 +51,17 @@ label {
     display: block
 }
 
-.billboard {
-    margin: 0 ;
-    padding: 0; 
-    position: relative;
-}
-
-.overlay {
-    color: white;
-    padding: 0.8rem;
-    font-size: 1.25rem;
-    margin: 0;
-    padding: 1.5rem;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
+.logo {
+   width: 50%  
 }
 
 .welcome {
     color: white;
-    font-size: 5rem;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
     font-weight: bold;
+    text-align: left;
 }
-
+    
 a,
 a:link,
 a:visited {
@@ -173,6 +160,9 @@ img {
     text-align: center;
 }
   
+.facts { 
+}
+
 .bubbles {
     padding: 2em;
 }
@@ -188,18 +178,13 @@ img {
     color: white;
 }
 
-.nav {
-    padding: 0;
-    list-style: disc;
-}
-
 .nav a,
 .nav a:link,
 .nav a:visited {
   display: block;
-
   color: #0074D9;
   text-decoration: none;
+ 
 }
 
 .nav a:hover,
@@ -209,7 +194,7 @@ img {
 .nav .nav-current:link,
 .nav .nav-current:visited {
   background-color: #0074D9;
-
+  text-decoration: none;
   color: #fff;
 }
 
@@ -226,14 +211,25 @@ img {
 
 .foot {
     background-color: #ccc;
+    text-align: center;
 }
 
 .characteristics {
     background-color: #e2e2e2;
 }
     
-.facts {
+.billboard {
     background-color: #4F94CD;
+    margin: 0;
+    padding-bottom: 10em;
+}
+
+.bubbleback {
+    background-color: #4F94CD;
+}
+
+.white {
+    color: white;
 }
 
 .phone {
@@ -258,58 +254,34 @@ img {
 
 @media only screen and (min-width: 25em) { /*small*/
 
-    .hide {
-        display: inline;
-    }
-    
-    .nav {
-        text-align: center;
-    }
-    
-    .nav li {
-        display: inline-block;
-        border: 0;
-    }
-    
-    .nav a {
-        display: inline;
-    }
-   
-    .navtop {
-        text-align: center
-    }
-    
-    .navtop li {
-        display: inline-block;
-        border: 0;
-    }
-    
+   .logo {
+   width: 40%  
+   }
     
 }
 
 @media only screen and (min-width: 38em) { /*medium*/
     
-    .jupiter {
-        float: left;
-    }
+   .logo {
+   width: 30%  
+   }
     
-    .nav {
-        float: right;
-    }
-    
-    .navtop {
-        text-align: center;
-    }
-       
     .copy {
         text-align: left;
     }
     
-    
+    .hide {
+        display: inline;
+    }
+       
 }
 
 @media only screen and (min-width: 60em) { /*large*/
 
+    
+   .logo {
+   width: 20%  
+   }
 
     dl {
         overflow: hidden;
@@ -324,5 +296,10 @@ img {
     dd {
         float: left;
     }
+    
+    .welcome {
+    font-size: 4rem;
+}
+    
 }
     
