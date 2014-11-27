@@ -181,7 +181,6 @@ img {
 .nav a,
 .nav a:link,
 .nav a:visited {
-  display: block;
   color: #0074D9;
   text-decoration: none;
  
@@ -196,17 +195,6 @@ img {
   background-color: #0074D9;
   text-decoration: none;
   color: #fff;
-}
-
-.navtop {
-    padding: 0;
-    list-style: none;
-}
-
-.navtop a {
-    display: block;
-    text-decoration: none;
-    color: #0074D9;
 }
 
 .foot {
@@ -283,20 +271,6 @@ img {
    width: 20%  
    }
 
-    dl {
-        overflow: hidden;
-    }
-
-    dt {
-        float: left;
-        clear: left;
-        width: 10rem;
-    }
-
-    dd {
-        float: left;
-    }
-    
     .welcome {
     font-size: 4rem;
 }
