@@ -123,6 +123,12 @@ img {
     padding: 2em;
 }
 
+.icons {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;  
+}
+
 .bubblescaption {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -245,6 +251,7 @@ img {
 
 
 @media only screen and (min-width: 25em) { /*small*/
+    
 
 @media only screen and (min-width: 38em) { /*medium*/
        
@@ -255,6 +262,12 @@ img {
     .toplist {
         float: right;
 }
+
+    .icons {
+    width: 100%;
+    margin: 0%;  
+}
+    
 }
 
 @media only screen and (min-width: 60em) { /*large*/
@@ -262,6 +275,12 @@ img {
     .welcome {
     font-size: 4rem;
     }
+    
+    .icons {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;  
+}
     
 }
     
