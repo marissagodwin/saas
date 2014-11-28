@@ -203,6 +203,14 @@ img {
   display: inline;
 }
 
+.ender {   
+    padding: 0;
+}
+
+.ender li{   
+    list-style-type: none;
+}
+
 .foot {
     background-color: #ccc;
     text-align: center;
@@ -233,6 +241,8 @@ img {
 .right {
         text-align: right;
 }
+
+
 
 @media only screen and (min-width: 25em) { /*small*/
 
