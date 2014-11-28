@@ -164,6 +164,7 @@ img {
   display: inline;
   color: white;
   text-decoration: none;
+  padding: 1em;
 }
 
 .toplist li {
@@ -179,7 +180,6 @@ img {
   background-color: #0074D9;
   text-decoration: none;
   color: #fff;
-  padding: 1em;
   display: inline;
 }
 
