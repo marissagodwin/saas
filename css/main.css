@@ -178,12 +178,31 @@ img {
     color: white;
 }
 
+.navtop a,
+.navtop a:link,
+.navtop a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #0074D9; 
+  padding: 1em;
+}
+
+.navtop a:hover,
+.navtop a:focus,
+.navtop a:active,
+.navtop .nav-current,
+.navtop .nav-current:link,
+.navtop .nav-current:visited {
+  background-color: white;
+  text-decoration: none;
+  color: #0074D9;
+}
+
 .nav a,
 .nav a:link,
 .nav a:visited {
   color: #0074D9;
   text-decoration: none;
- 
 }
 
 .nav a:hover,
@@ -195,6 +214,7 @@ img {
   background-color: #0074D9;
   text-decoration: none;
   color: #fff;
+  padding: 1em;
 }
 
 .foot {
