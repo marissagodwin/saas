@@ -224,9 +224,15 @@ img {
  
 .billboard {
     background-color: #4F94CD;
-    margin: 0;
-    padding-bottom: 10em;
 }
+
+.background {
+    background-image: url(../images/billboard.svg);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;   
+}
+    
 
 .white {
     color: white;
@@ -276,11 +282,7 @@ img {
     font-size: 4rem;
     }
     
-    .icons {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;  
-}
+    
     
 }
     
