@@ -227,12 +227,15 @@ img {
 }
 
 .background {
-    background-image: url(../images/billboard.svg);
+    background-image: url(../images/back.jpg);
     background-position: center center;
     background-size: cover;
     overflow: hidden;   
 }
     
+.logo {
+    width: 50%;
+}
 
 .white {
     color: white;
