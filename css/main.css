@@ -54,6 +54,12 @@ body {
     text-align: left;
 }
 
+.welcomeblack {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
 img { 
     display: block;
     width: 100%;
@@ -285,6 +291,9 @@ img {
     font-size: 4rem;
     }
     
+    .welcomeblack {
+    font-size: 4rem;
+    }
     
     
 }
