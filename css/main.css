@@ -89,6 +89,15 @@ img {
     width: 100%;
 }
 
+.button { 
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 70%;
+    background-color: #4F94CD;
+    color: white;
+}
+
 .explain {
     border: 1px solid #ccc;
     font-size: 1.5em;
