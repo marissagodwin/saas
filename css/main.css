@@ -78,6 +78,10 @@ img {
     text-align: center;
 }
    
+.smallprint {
+    color: grey;
+    text-align: center;
+}
 .field { 
     border: 1px solid #ccc;
     font-size: 1.5em;
@@ -274,6 +278,10 @@ img {
 
 .white {
     color: white;
+}
+
+.photos {
+    width: 40%;
 }
 
 .phone {
