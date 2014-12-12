@@ -100,7 +100,7 @@ img {
     border: 1px solid #ccc;
     font-size: 1.5em;
     padding: 0.2em 0.5em;
-    width: 70%;
+    width: 100%;
     background-color: #4F94CD;
     color: white;
 }
@@ -347,6 +347,11 @@ img {
    .socialbubbles {
     padding: 2em;
 }
+    
+    .socialbubbles2 {
+    width: 50%;
+}
+    
 }
 
 @media only screen and (min-width: 60em) { /*large*/
@@ -365,6 +370,10 @@ img {
     
     .socialbubbles {
     padding: 4em;
+}
+    
+    .socialbubbles2 {
+    width: 30%;
 }
    
    
