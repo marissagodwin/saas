@@ -60,6 +60,13 @@ body {
     text-align: left;
 }
 
+.welcomeblue {
+    color:  #4F94CD;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
 img { 
     display: block;
     width: 100%;
@@ -332,7 +339,14 @@ img {
     width: 70%;
     margin: 15%;  
 }
-   
+    
+     .phonepic {
+    width: 75%;
+    }
+    
+   .socialbubbles {
+    padding: 2em;
+}
 }
 
 @media only screen and (min-width: 60em) { /*large*/
@@ -344,6 +358,15 @@ img {
     .welcomeblack {
     font-size: 4rem;
     }
+    
+    .welcomeblue {
+   font-size: 4rem;
+}
+    
+    .socialbubbles {
+    padding: 4em;
+}
+   
    
 }
     
