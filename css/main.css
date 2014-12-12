@@ -266,6 +266,12 @@ img {
     overflow: hidden;   
 }
 
+.thankyouback {
+    background-image: url(../images/thankyouback-01.svg);
+    background-position: center center;
+    background-size: cover;   
+}
+
 .white {
     color: white;
 }
